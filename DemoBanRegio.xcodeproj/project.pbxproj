@@ -13,13 +13,27 @@
 		7403C7B828CA5D9300BF0F92 /* DemoBanRegioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7B728CA5D9300BF0F92 /* DemoBanRegioTests.swift */; };
 		7403C7C228CA5D9300BF0F92 /* DemoBanRegioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7C128CA5D9300BF0F92 /* DemoBanRegioUITests.swift */; };
 		7403C7C428CA5D9300BF0F92 /* DemoBanRegioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7C328CA5D9300BF0F92 /* DemoBanRegioUITestsLaunchTests.swift */; };
-		7403C7DB28CA5F2100BF0F92 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D428CA5F2100BF0F92 /* HomePresenter.swift */; };
-		7403C7DC28CA5F2100BF0F92 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D528CA5F2100BF0F92 /* HomeWorker.swift */; };
-		7403C7DD28CA5F2100BF0F92 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D628CA5F2100BF0F92 /* HomeRouter.swift */; };
-		7403C7DE28CA5F2100BF0F92 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D728CA5F2100BF0F92 /* HomeModels.swift */; };
-		7403C7DF28CA5F2100BF0F92 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D828CA5F2100BF0F92 /* HomeViewController.swift */; };
-		7403C7E028CA5F2100BF0F92 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D928CA5F2100BF0F92 /* HomeInteractor.swift */; };
-		7403C7E128CA5F2100BF0F92 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7403C7DA28CA5F2100BF0F92 /* HomeView.xib */; };
+		7403C7DB28CA5F2100BF0F92 /* LoansPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D428CA5F2100BF0F92 /* LoansPresenter.swift */; };
+		7403C7DC28CA5F2100BF0F92 /* LoansWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D528CA5F2100BF0F92 /* LoansWorker.swift */; };
+		7403C7DD28CA5F2100BF0F92 /* LoansRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D628CA5F2100BF0F92 /* LoansRouter.swift */; };
+		7403C7DE28CA5F2100BF0F92 /* LoansModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D728CA5F2100BF0F92 /* LoansModels.swift */; };
+		7403C7DF28CA5F2100BF0F92 /* LoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D828CA5F2100BF0F92 /* LoansViewController.swift */; };
+		7403C7E028CA5F2100BF0F92 /* LoansInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7D928CA5F2100BF0F92 /* LoansInteractor.swift */; };
+		7403C7E128CA5F2100BF0F92 /* LoansView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7403C7DA28CA5F2100BF0F92 /* LoansView.xib */; };
+		7403C7E628CA67F500BF0F92 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7E528CA67F500BF0F92 /* Extensions.swift */; };
+		7403C7E928CA75DC00BF0F92 /* LoanDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7E828CA75DC00BF0F92 /* LoanDAO.swift */; };
+		7403C7ED28CA7B8E00BF0F92 /* LoanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7EB28CA7B8E00BF0F92 /* LoanCell.swift */; };
+		7403C7EE28CA7B8E00BF0F92 /* LoanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7403C7EC28CA7B8E00BF0F92 /* LoanCell.xib */; };
+		7403C7F128CA80A600BF0F92 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F028CA80A600BF0F92 /* Models.swift */; };
+		7403C7FB28CA85F300BF0F92 /* DebitAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F428CA85F300BF0F92 /* DebitAccountPresenter.swift */; };
+		7403C7FC28CA85F300BF0F92 /* DebitAccountWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F528CA85F300BF0F92 /* DebitAccountWorker.swift */; };
+		7403C7FD28CA85F300BF0F92 /* DebitAccountRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F628CA85F300BF0F92 /* DebitAccountRouter.swift */; };
+		7403C7FE28CA85F300BF0F92 /* DebitAccountModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F728CA85F300BF0F92 /* DebitAccountModels.swift */; };
+		7403C7FF28CA85F300BF0F92 /* DebitAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F828CA85F300BF0F92 /* DebitAccountViewController.swift */; };
+		7403C80028CA85F300BF0F92 /* DebitAccountInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C7F928CA85F300BF0F92 /* DebitAccountInteractor.swift */; };
+		7403C80128CA85F300BF0F92 /* DebitAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7403C7FA28CA85F300BF0F92 /* DebitAccountView.xib */; };
+		7403C80528CA867900BF0F92 /* DebitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403C80328CA867900BF0F92 /* DebitCell.swift */; };
+		7403C80628CA867900BF0F92 /* DebitCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7403C80428CA867900BF0F92 /* DebitCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,13 +64,27 @@
 		7403C7BD28CA5D9300BF0F92 /* DemoBanRegioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoBanRegioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7403C7C128CA5D9300BF0F92 /* DemoBanRegioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBanRegioUITests.swift; sourceTree = "<group>"; };
 		7403C7C328CA5D9300BF0F92 /* DemoBanRegioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoBanRegioUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7403C7D428CA5F2100BF0F92 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
-		7403C7D528CA5F2100BF0F92 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
-		7403C7D628CA5F2100BF0F92 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		7403C7D728CA5F2100BF0F92 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
-		7403C7D828CA5F2100BF0F92 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		7403C7D928CA5F2100BF0F92 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		7403C7DA28CA5F2100BF0F92 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		7403C7D428CA5F2100BF0F92 /* LoansPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansPresenter.swift; sourceTree = "<group>"; };
+		7403C7D528CA5F2100BF0F92 /* LoansWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansWorker.swift; sourceTree = "<group>"; };
+		7403C7D628CA5F2100BF0F92 /* LoansRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansRouter.swift; sourceTree = "<group>"; };
+		7403C7D728CA5F2100BF0F92 /* LoansModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansModels.swift; sourceTree = "<group>"; };
+		7403C7D828CA5F2100BF0F92 /* LoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansViewController.swift; sourceTree = "<group>"; };
+		7403C7D928CA5F2100BF0F92 /* LoansInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoansInteractor.swift; sourceTree = "<group>"; };
+		7403C7DA28CA5F2100BF0F92 /* LoansView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoansView.xib; sourceTree = "<group>"; };
+		7403C7E528CA67F500BF0F92 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7403C7E828CA75DC00BF0F92 /* LoanDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDAO.swift; sourceTree = "<group>"; };
+		7403C7EB28CA7B8E00BF0F92 /* LoanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanCell.swift; sourceTree = "<group>"; };
+		7403C7EC28CA7B8E00BF0F92 /* LoanCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoanCell.xib; sourceTree = "<group>"; };
+		7403C7F028CA80A600BF0F92 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7403C7F428CA85F300BF0F92 /* DebitAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountPresenter.swift; sourceTree = "<group>"; };
+		7403C7F528CA85F300BF0F92 /* DebitAccountWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountWorker.swift; sourceTree = "<group>"; };
+		7403C7F628CA85F300BF0F92 /* DebitAccountRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountRouter.swift; sourceTree = "<group>"; };
+		7403C7F728CA85F300BF0F92 /* DebitAccountModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountModels.swift; sourceTree = "<group>"; };
+		7403C7F828CA85F300BF0F92 /* DebitAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountViewController.swift; sourceTree = "<group>"; };
+		7403C7F928CA85F300BF0F92 /* DebitAccountInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitAccountInteractor.swift; sourceTree = "<group>"; };
+		7403C7FA28CA85F300BF0F92 /* DebitAccountView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebitAccountView.xib; sourceTree = "<group>"; };
+		7403C80328CA867900BF0F92 /* DebitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebitCell.swift; sourceTree = "<group>"; };
+		7403C80428CA867900BF0F92 /* DebitCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DebitCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +135,9 @@
 		7403C79F28CA5D9200BF0F92 /* DemoBanRegio */ = {
 			isa = PBXGroup;
 			children = (
+				7403C7EF28CA809300BF0F92 /* Models */,
+				7403C7E728CA75BE00BF0F92 /* DAO */,
+				7403C7E228CA679900BF0F92 /* Utils */,
 				7403C7D228CA5F0900BF0F92 /* Modules */,
 				7403C7D128CA5EEE00BF0F92 /* Resources */,
 				7403C7D028CA5E9200BF0F92 /* App */,
@@ -152,23 +183,82 @@
 		7403C7D228CA5F0900BF0F92 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				7403C7D328CA5F1200BF0F92 /* Home */,
+				7403C7F228CA85D800BF0F92 /* DebitAccount */,
+				7403C7D328CA5F1200BF0F92 /* Loans */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		7403C7D328CA5F1200BF0F92 /* Home */ = {
+		7403C7D328CA5F1200BF0F92 /* Loans */ = {
 			isa = PBXGroup;
 			children = (
-				7403C7D428CA5F2100BF0F92 /* HomePresenter.swift */,
-				7403C7D528CA5F2100BF0F92 /* HomeWorker.swift */,
-				7403C7D628CA5F2100BF0F92 /* HomeRouter.swift */,
-				7403C7D728CA5F2100BF0F92 /* HomeModels.swift */,
-				7403C7D828CA5F2100BF0F92 /* HomeViewController.swift */,
-				7403C7D928CA5F2100BF0F92 /* HomeInteractor.swift */,
-				7403C7DA28CA5F2100BF0F92 /* HomeView.xib */,
+				7403C7EA28CA7B6B00BF0F92 /* Cell */,
+				7403C7D428CA5F2100BF0F92 /* LoansPresenter.swift */,
+				7403C7D528CA5F2100BF0F92 /* LoansWorker.swift */,
+				7403C7D628CA5F2100BF0F92 /* LoansRouter.swift */,
+				7403C7D728CA5F2100BF0F92 /* LoansModels.swift */,
+				7403C7D828CA5F2100BF0F92 /* LoansViewController.swift */,
+				7403C7D928CA5F2100BF0F92 /* LoansInteractor.swift */,
+				7403C7DA28CA5F2100BF0F92 /* LoansView.xib */,
 			);
-			path = Home;
+			path = Loans;
+			sourceTree = "<group>";
+		};
+		7403C7E228CA679900BF0F92 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7403C7E528CA67F500BF0F92 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7403C7E728CA75BE00BF0F92 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				7403C7E828CA75DC00BF0F92 /* LoanDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		7403C7EA28CA7B6B00BF0F92 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7403C7EB28CA7B8E00BF0F92 /* LoanCell.swift */,
+				7403C7EC28CA7B8E00BF0F92 /* LoanCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7403C7EF28CA809300BF0F92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7403C7F028CA80A600BF0F92 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7403C7F228CA85D800BF0F92 /* DebitAccount */ = {
+			isa = PBXGroup;
+			children = (
+				7403C80228CA866000BF0F92 /* DebitCell */,
+				7403C7F428CA85F300BF0F92 /* DebitAccountPresenter.swift */,
+				7403C7F528CA85F300BF0F92 /* DebitAccountWorker.swift */,
+				7403C7F628CA85F300BF0F92 /* DebitAccountRouter.swift */,
+				7403C7F728CA85F300BF0F92 /* DebitAccountModels.swift */,
+				7403C7F828CA85F300BF0F92 /* DebitAccountViewController.swift */,
+				7403C7F928CA85F300BF0F92 /* DebitAccountInteractor.swift */,
+				7403C7FA28CA85F300BF0F92 /* DebitAccountView.xib */,
+			);
+			path = DebitAccount;
+			sourceTree = "<group>";
+		};
+		7403C80228CA866000BF0F92 /* DebitCell */ = {
+			isa = PBXGroup;
+			children = (
+				7403C80328CA867900BF0F92 /* DebitCell.swift */,
+				7403C80428CA867900BF0F92 /* DebitCell.xib */,
+			);
+			path = DebitCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +365,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403C80128CA85F300BF0F92 /* DebitAccountView.xib in Resources */,
 				7403C7AD28CA5D9300BF0F92 /* LaunchScreen.storyboard in Resources */,
+				7403C80628CA867900BF0F92 /* DebitCell.xib in Resources */,
 				7403C7AA28CA5D9300BF0F92 /* Assets.xcassets in Resources */,
-				7403C7E128CA5F2100BF0F92 /* HomeView.xib in Resources */,
+				7403C7E128CA5F2100BF0F92 /* LoansView.xib in Resources */,
+				7403C7EE28CA7B8E00BF0F92 /* LoanCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,13 +395,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403C80028CA85F300BF0F92 /* DebitAccountInteractor.swift in Sources */,
+				7403C7F128CA80A600BF0F92 /* Models.swift in Sources */,
+				7403C7FC28CA85F300BF0F92 /* DebitAccountWorker.swift in Sources */,
 				7403C7A128CA5D9200BF0F92 /* AppDelegate.swift in Sources */,
-				7403C7DE28CA5F2100BF0F92 /* HomeModels.swift in Sources */,
-				7403C7DD28CA5F2100BF0F92 /* HomeRouter.swift in Sources */,
-				7403C7DC28CA5F2100BF0F92 /* HomeWorker.swift in Sources */,
-				7403C7DB28CA5F2100BF0F92 /* HomePresenter.swift in Sources */,
-				7403C7DF28CA5F2100BF0F92 /* HomeViewController.swift in Sources */,
-				7403C7E028CA5F2100BF0F92 /* HomeInteractor.swift in Sources */,
+				7403C7DE28CA5F2100BF0F92 /* LoansModels.swift in Sources */,
+				7403C7DD28CA5F2100BF0F92 /* LoansRouter.swift in Sources */,
+				7403C7E628CA67F500BF0F92 /* Extensions.swift in Sources */,
+				7403C7DC28CA5F2100BF0F92 /* LoansWorker.swift in Sources */,
+				7403C7ED28CA7B8E00BF0F92 /* LoanCell.swift in Sources */,
+				7403C7FB28CA85F300BF0F92 /* DebitAccountPresenter.swift in Sources */,
+				7403C7DB28CA5F2100BF0F92 /* LoansPresenter.swift in Sources */,
+				7403C7DF28CA5F2100BF0F92 /* LoansViewController.swift in Sources */,
+				7403C80528CA867900BF0F92 /* DebitCell.swift in Sources */,
+				7403C7FE28CA85F300BF0F92 /* DebitAccountModels.swift in Sources */,
+				7403C7E928CA75DC00BF0F92 /* LoanDAO.swift in Sources */,
+				7403C7E028CA5F2100BF0F92 /* LoansInteractor.swift in Sources */,
+				7403C7FF28CA85F300BF0F92 /* DebitAccountViewController.swift in Sources */,
+				7403C7FD28CA85F300BF0F92 /* DebitAccountRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
