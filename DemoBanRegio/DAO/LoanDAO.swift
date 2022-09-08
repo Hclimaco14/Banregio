@@ -72,6 +72,7 @@ class LoanDAO {
             accounts[index].amount -= payment.amount
             if let indexLoan = loansList.firstIndex(where: { $0.client == payment.client}) {
                 loansList[indexLoan].status = .paid
+                print(loansList[indexLoan])
             }
         }
         
